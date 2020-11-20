@@ -74,48 +74,74 @@
 <!-- adding the reset in the body makes sure it isn't stripped away by any email clients so there is maximum compatibility -->
 <body id="body" style="margin: 0 !important; padding: 0 !important;">
 
-  <div style="color: black; font-family: sans-serif; font-size: 18px; line-height: 36px; margin: 0 auto; max-width: 600px; ">
+  <table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+    <tr>
+      <td align="center">
+        <table border="0" class="mobile" cellpadding="0" cellspacing="0" role="presentation" width="600" style="background-color: #fff; color: black; font-family: sans-serif; font-size: 18px; line-height: 36px; margin: 0 auto; padding: 0; max-width: 600px;">
+      
+          <!-- Logo Image -->
+          <tr>
+            <td>
+              <img src="https://placebear.com/200/200" alt="" style="width: 60px; border-radius: 60px; display: block; margin: 0 auto;">
+            </td>   
+          </tr>  
 
-    <!-- Logo Image -->
-    <center>
-      <img src="https://placebear.com/200/200" alt="" style="width: 60px; border-radius: 60px; display: block; margin: 0 auto;">
-    </center>  
+          <!-- Headline -->
+          <tr>
+            <td>
+              <h1 style="margin: 40px 0; text-align: center;">This is a heading!</h1> 
+            </td>     
+          </tr>  
 
-    <!-- Headline -->
-    <h1 style="margin: 40px 0; text-align: center;">This is a heading!</h1>
+          <!-- Hero Image -->
+          <tr>
+            <td>
+              <img src="https://placebear.com/800/600" alt="" height="800" width="600" border="0" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">  
+            </td>        
+          </tr>  
+
+          <!-- Body Copy -->
+          <tr>
+            <td>
+              <p style="margin: 40px 0 20px 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aperiam magnam numquam quaerat! Maiores vero laboriosam error cupiditate debitis cum vel sequi, dolores blanditiis, quis ullam, modi libero quisquam eius.</p>
+          
+              <p style="margin: 0 0 20px 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aperiam magnam numquam quaerat!
+              Maiores vero laboriosam error cupiditate debitis cum vel sequi, dolores blanditiis, quis ullam, modi libero quisquam
+              eius.</p>   
+            </td>        
+          </tr> 
+
+        <!-- Button (call to action, goal, get them onto the website/app) -->
+        <!-- Using button templating for cross-client compatibility (not great with samsung) buttons.cm -->
+      <tr>
+        <td>
+          <div style="text-align: center;">
+            <!--[if mso]>
+            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://davidallenjordan.com" style="height:60px;v-text-anchor:middle;width:200px;" arcsize="7%" strokecolor="#1e3650" fillcolor="#0b74e0">
+            <w:anchorlock/>
+            <center style="color:#ffffff;font-family:sans-serif;font-size:13pxfont-weight:bold;">My awesome button</center>
+            </v:roundrect>
+            <![endif]-->
+              <a href="http://davidallenjordan.com"
+              style="background-color:#0b74e0;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;font-weight:bold;line-height:60px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">
+              My awesome button</a>
+            </div>    
+        </td>            
+      </tr>
+      
+      <!-- Footer (legal requirements, unsubscribe link, address, castle) -->
+          <tr>
+            <td align="center" style="color: grey; font-family: sans-serif; font-size: 16px; line-height: 24px; margin: 0 auto; max-width: 600px;">
+              <p style="margin: 60px 0 20px 0"><a href="#" style="color: purple; font-weight: bold;">Feel free to unsubscribe</a></p>
+              <p style="margin: 0 0 60px 0;">12345 Main St. Toronto, ON M6G 1B6</p>
+            </td>   
+          </tr>  
+                
+        </table>
   
-    <!-- Hero Image -->
-    <img src="https://placebear.com/800/600" alt="" height="800" width="600" border="0" style="display: block; max-width: 100%; min-width: 100px; width: 100%;">
-  
-    <!-- Body Copy -->
-    <p style="margin: 40px 0 20px 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aperiam magnam numquam quaerat! Maiores vero laboriosam error cupiditate debitis cum vel sequi, dolores blanditiis, quis ullam, modi libero quisquam eius.</p>
-
-    <p style="margin: 0 0 20px 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi aperiam magnam numquam quaerat!
-    Maiores vero laboriosam error cupiditate debitis cum vel sequi, dolores blanditiis, quis ullam, modi libero quisquam
-    eius.</p>
-
-    <!-- Button (call to action, goal, get them onto the website/app) -->
-    <!-- Using button templating for cross-client compatibility (not great with samsung) buttons.cm -->
-<div style="text-align: center;">
-  <!--[if mso]>
-  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://davidallenjordan.com" style="height:60px;v-text-anchor:middle;width:200px;" arcsize="7%" strokecolor="#1e3650" fillcolor="#0b74e0">
-  <w:anchorlock/>
-  <center style="color:#ffffff;font-family:sans-serif;font-size:13pxfont-weight:bold;">My awesome button</center>
-  </v:roundrect>
-  <![endif]-->
-    <a href="http://davidallenjordan.com"
-    style="background-color:#0b74e0;border:1px solid #1e3650;border-radius:4px;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:16px;font-weight:bold;line-height:60px;text-align:center;text-decoration:none;width:200px;-webkit-text-size-adjust:none;mso-hide:all;">
-    My awesome button</a>
-  </div>
-    
-    <!-- Footer (legal requirements, unsubscribe link, address, castle) -->
-    <div style="color: grey; font-family: sans-serif; font-size: 16px; line-height: 24px; margin: 0 auto; max-width: 600px;">
-      <p style="margin: 60px 0 20px 0"><a href="#" style="color: purple; font-weight: bold;">Feel free to unsubscribe</a></p>
-      <p style="margin: 0 0 60px 0;">12345 Main St. Toronto, ON M6G 1B6</p>
-    </div> 
-    
-  </div>
-
+      </td>  
+    </tr>  
+  </table>
 </body>
 
 </html>
